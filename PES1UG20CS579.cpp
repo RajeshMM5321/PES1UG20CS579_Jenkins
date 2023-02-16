@@ -1,11 +1,9 @@
-pipeline {
-    agent any
+#include <iostream>
+using namespace std;
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
+int main(void) {
+  cout << "Hello, World\n";
+  cout << "Hello, Jenkins\n";
+  cout << "I PES1UG20CS579 have successfully built and run\n";
+  return 0;
 }
